@@ -162,5 +162,3 @@ As always, google is your friend :)
    
 ## Example ##
 ![image](https://user-images.githubusercontent.com/76498304/117231512-2deb4f00-add4-11eb-9731-986ab03c82c6.png)
-
-  - [ ] Setup a way to refresh the displayed messages (either automatically or with a button)
