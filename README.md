@@ -161,4 +161,6 @@ As always, google is your friend :)
    - [ ] Display all messages sent by friends in bold or with highlight
    
 ## Example ##
-![image](https://s3.us-west-2.amazonaws.com/forge-production.galvanize.com/content/f64e04b01275579a5c00cbb6d54fcdd8.gif)
+![image](https://user-images.githubusercontent.com/76498304/117231512-2deb4f00-add4-11eb-9731-986ab03c82c6.png)
+
+  - [ ] Setup a way to refresh the displayed messages (either automatically or with a button)
