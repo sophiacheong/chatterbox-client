@@ -47,7 +47,7 @@ This API has two endpoints available to you: 1. GET https://app-hrsei-api.heroku
 
 The message objects you send to the api server (via POST requests) should be in the following format:
 ```
-var message = {
+<style>var{color: Blue}</style> message = {
   username: 'shawndrost',
   text: 'trololo',
   roomname: '4chan'
