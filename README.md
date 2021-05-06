@@ -161,4 +161,4 @@ As always, google is your friend :)
    - [ ] Display all messages sent by friends in bold or with highlight
    
 ## Example ##
-![image](https://user-images.githubusercontent.com/76498304/117230911-f5974100-add2-11eb-8cb5-ad5d079ea11e.png)
+![image](https://s3.us-west-2.amazonaws.com/forge-production.galvanize.com/content/f64e04b01275579a5c00cbb6d54fcdd8.gif)
