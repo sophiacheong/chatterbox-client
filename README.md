@@ -136,11 +136,11 @@ Look inside the **`client/scripts`** folder and start coding.
      - [ ] Be sure to use proper escaping on any user input. Since you're displaying input that other users have typed, your app is vulnerable XSS attacks. See the section about escaping below.
 
   **Note**: If you issue an XSS attack, you must make it innocuous enough to be educational, rather than disruptive. Basically you should scope your attacks to be **`console.log`** or **minor** style changes. The following are **not** allowed: <br />
-     * alerts or popups
-     * adding or removing dom elements
-     * anything using setInterval
-     * spamming the server
-     * DDOS attacks
+    * alerts or popups
+    * adding or removing dom elements
+    * anything using setInterval
+    * spamming the server
+    * DDOS attacks
   - [ ] Allow users to save new chat messages to the server
   - [ ] Setup a way to refresh the displayed messages (either automatically or with a button)
   
