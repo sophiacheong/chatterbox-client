@@ -135,12 +135,12 @@ Look inside the **`client/scripts`** folder and start coding.
      - [ ] Read about [Underscore's easy templating abilities](https://css-tricks.com/lodge/learn-jquery/24-templating-underscore/) , then create a template function to render a message to HTML. Alternatively, you may use jQuery to construct DOM nodes and compose them together to create the desired HTML output. Underscore's template system is quite extensive and you can read about it's advanced capabilities [here](https://2ality.com/2012/06/underscore-templates.html) .
      - [ ] Be sure to use proper escaping on any user input. Since you're displaying input that other users have typed, your app is vulnerable XSS attacks. See the section about escaping below.
 
-**Note**: If you issue an XSS attack, you must make it innocuous enough to be educational, rather than disruptive. Basically you should scope your attacks to be **`console.log`** or **minor** style changes. The following are **not** allowed: <br />
-   * alerts or popups
-   * adding or removing dom elements
-   * anything using setInterval
-   * spamming the server
-   * DDOS attacks
+  **Note**: If you issue an XSS attack, you must make it innocuous enough to be educational, rather than disruptive. Basically you should scope your attacks to be **`console.log`** or **minor** style changes. The following are **not** allowed: <br />
+     * alerts or popups
+     * adding or removing dom elements
+     * anything using setInterval
+     * spamming the server
+     * DDOS attacks
   - [ ] Allow users to save new chat messages to the server
   - [ ] Setup a way to refresh the displayed messages (either automatically or with a button)
   
