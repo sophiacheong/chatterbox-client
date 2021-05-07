@@ -8,7 +8,7 @@ var MessagesView = {
 
   render: function() {
     MessagesView.$chats.html('');
-    Messages.items().each(message => MessagesView.renderMessage(message));
+    Messages.items().filter(message => Rooms.isSelected(message.roomname)).each(message => MessagesView.renderMessage(message));
   },
 
   renderMessage: function(message) {
@@ -21,6 +21,8 @@ var MessagesView = {
     if (username === undefined) {
       return;
     }
+
+    Friends.toggleStatus(username, MessagesView.render);
   }
 
 };
