@@ -4,6 +4,8 @@ var App = {
 
   username: 'anonymous',
 
+  roomname: 'lobby',
+
   initialize: function() {
     App.username = window.location.search.substr(10);
 
@@ -18,10 +20,10 @@ var App = {
     setInterval(App.fetch, 3000);
   },
 
-  fetch: function(callback = ()=>{}) {
+  fetch: function(callback = () => {}) {
     Parse.readAll((data) => {
-
       if (!data.results || !data.results.length) {
+        callback();
         return;
       }
       // examine the response from the server request:
